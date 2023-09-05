@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#27272a;
+}
+
+.nav-container{
+    display: flex;
+    background-color: #18181b;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    ;
+}
+.left{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 900;
+    font-size: 35px;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+.right ul li{
+    justify-content: space-between;
+    margin: 0 5px;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 20px;
+    cursor:pointer; 
+}
+.right ul i{
+    margin: 10px;
+}
+
+.container{
+   width: 100vw;
+  height: 400px;
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+ 
+ 
+  /* box-shadow: 10px solid black; */
+  /* justify-content: center; */
+}
+.container img{
+    display: block;
+  
+}
+.carousel1{
+    height: 400px;
+    width: 443px;
+    overflow: hidden;
+}
+.image-par1{
+    /* display: flex;
+    height: 400px;
+    width: 443px; */
+}
+.monuments,.tajmahal{
+   height: 400px;
+   width: 33.33333vw;
+   margin: 0;
+   object-fit: cover;
+   object-position: center;
+   position: relative;
+   overflow: hidden;
+   /* display: block; */
+   -webkit-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+-moz-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+
+}
+
+.food{
+    margin: 0;
+    height: 400px;
+   width: 34.3333vw;
+    
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+   /* display: block; */
+    opacity: 0.9;
+    
+   
+}
+.festival {
+    margin: 0;
+    height: 400px;
+   width: 33.33333vw;
+
+    vertical-align:left;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    -webkit-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+    -moz-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+    box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container h1 {
+    position: relative;
+    bottom: 10%;
+    text-align: center;
+    left: 50%;
+    /* font-family: 'Abril Fatface', cursive; */
+font-family: 'Lobster Two', cursive;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    box-shadow: -webkit-box-shadow: 10px 2px 61px 43px rgba(0,0,0,0.65);
+    -moz-box-shadow: 10px 2px 61px 43px rgba(0,0,0,0.65);
+    box-shadow: 10px 2px 61px 43px rgba(0,0,0,0.65);;
+    font-weight: 900;
+   font-size: 50px;
+    color: yellow;
+    width: auto;
+    backdrop-filter: blur(1px);
+
+    padding: 10px;
+    margin: 0;
+}
+
+.second-section h1{
+     color: white;
+     font-size: 35px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.second-section h2{
+    color: #84cc16;
+    font-weight: 800    ;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
