@@ -28,7 +28,7 @@ function changeFood() {
         "images/food2.jpeg",
         "images/food3.jpeg",
         "images/food4.jpeg",
-        "images/food6.jpeg",
+        
         "images/food7.jpeg",
         "images/food8.jpeg",
         "images/food9.jpeg",
