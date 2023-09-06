@@ -7,11 +7,11 @@ var imageIndexFestival = 0;
 
 function changeMonuments() {
     var imageSourcesMonuments = [
-        "lotus.jpeg",
-        "tajmahal.jpeg",
-        "monument4.jpeg",
-        "monument5.jpeg",
-        "india gate.jpeg",
+        "images/lotus.jpeg",
+        "images/tajmahal.jpeg",
+        "images/monument4.jpeg",
+        "images/monument5.jpeg",
+        "images/india gate.jpeg",
     ];
 
     for (var i = 0; i < monuments.length; i++) {
@@ -23,11 +23,16 @@ function changeMonuments() {
 
 function changeFood() {
     var imageSourcesFood = [
-        "food.jpeg",
-        "food1.jpeg",
-        "food2.jpeg",
-        "food3.jpeg",
-        "food4.jpeg",
+        "images/food.jpeg",
+      
+        "images/food2.jpeg",
+        "images/food3.jpeg",
+        "images/food4.jpeg",
+        "images/food6.jpeg",
+        "images/food7.jpeg",
+        "images/food8.jpeg",
+        "images/food9.jpeg",
+        "images/food10.jpeg",
     ];
 
     for (var i = 0; i < foodImages.length; i++) {
@@ -39,11 +44,11 @@ function changeFood() {
 
 function changeFestival() {
     var imageSourcesFestival = [
-        "diwali.jpeg",
-        "festival2.jpeg",
-        "festival3.jpeg",
-        "festival5.jpeg",
-        "festival4.jpeg",
+        "images/diwali.jpeg",
+        "images/festival2.jpeg",
+        "images/festival3.jpeg",
+        "images/festival5.jpeg",
+        "images/festival4.jpeg",
     ];
 
     for (var i = 0; i < festivalImages.length; i++) {
@@ -55,5 +60,5 @@ function changeFestival() {
 
 // Use separate setInterval for each class with different timings
 setInterval(changeMonuments, 2000); // Change images for "monuments" class every 2 seconds
-setInterval(changeFood, 1500);      // Change images for "food" class every 1.5 seconds
+setInterval(changeFood, 1000);      // Change images for "food" class every 1.5 seconds
 setInterval(changeFestival, 2000);  // Change images for "festival" class every 3 seconds

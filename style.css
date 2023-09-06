@@ -8,6 +8,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0.6rem;
+}
 
 html,body{
     height: 100%;
