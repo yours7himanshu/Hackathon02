@@ -169,8 +169,8 @@ font-family: 'Lobster Two', cursive;
     height: 70vh;
     margin: 25px;
    display: flex;
-    justify-content: space-evenly;
-    /* min-width: 0px; */
+    justify-content: center;
+  gap:20px;
 
 }
 
