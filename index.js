@@ -58,17 +58,9 @@ function changeFestival() {
     imageIndexFestival = (imageIndexFestival + 1) % imageSourcesFestival.length;
 }
 
-// Use separate setInterval for each class with different timings
-setInterval(changeMonuments, 2000); // Change images for "monuments" class every 2 seconds
-setInterval(changeFood, 1000);      // Change images for "food" class every 1.5 seconds
-setInterval(changeFestival, 2000);  // Change images for "festival" class every 3 seconds
+
+setInterval(changeMonuments, 2200); // Change images for "monuments" class every 2 seconds
+setInterval(changeFood, 2000);      // Change images for "food" class every 1.5 seconds
+setInterval(changeFestival, 2500);  // Change images for "festival" class every 3 seconds
 var docWidth = document.documentElement.offsetWidth;
 
-[].forEach.call(
-  document.querySelectorAll('*'),
-  function(el) {
-    if (el.offsetWidth > docWidth) {
-      console.log(el);
-    }
-  }
-);
