@@ -7,9 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script src="https://kit.fontawesome.com/af3d3daf23.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
@@ -53,14 +55,36 @@
         <center><h2>Services We Offer <i class="fa-solid fa-mug-hot"></i></h2></center>
     </div>
 
-    <div class="cards1">
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
+    <div class="services">
+        <div class="cards1 " data-aos="fade-right">
+           <img src="images/weather.png" alt="">
+           <h3>Calculated Weather</h3>
+           <p>Build Wicket longer admire do barten vanity itself do it</p>
+        </div>
+        <div class="cards2" data-aos="fade-right">
+            <img src="https://cdn1.iconfinder.com/data/icons/bokbokstars-121-classic-stock-icons-1/512/airplane.png" alt="">
+            <h3>Best Flights</h3>
+            <p>"Discover and book your dream flights today."</p>
+        </div>
+        
+        <div class="cards3" data-aos="fade-right">
+            <img src="images/restaurant-icon-png-10.png" alt="">
+            <h3>Best Restaurants</h3> 
+            <p>"Savor exceptional cuisine at our top-rated restaurants."</p>
+        </div>
+        <div class="cards4" data-aos="fade-right">
+            <img src="images/hotel3.png" alt="">
+            <h3>Best Hotels</h3>
+            <p>Indulge in luxury and comfort at our handpicked premium hotels.</p>
+
+            
+        </div>
+
+        
 
         
     </div>
+    <div class="Plan-trip"></div>
     </main>
 
 
@@ -72,5 +96,8 @@
         });
       </script>
     <script src="index.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

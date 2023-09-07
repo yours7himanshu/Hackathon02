@@ -99,9 +99,7 @@ body{
    position: relative;
    overflow: hidden;
    /* display: block; */
-   -webkit-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
--moz-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+   
 
 }
 
@@ -115,6 +113,7 @@ box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
     position: relative;
    /* display: block; */
     opacity: 0.9;
+   
     
    
 }
@@ -122,14 +121,11 @@ box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
     margin: 0;
     height: 400px;
    width: 33.33333vw;
-
     vertical-align:left;
     object-fit: cover;
     object-position: center;
     position: relative;
-    -webkit-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
-    -moz-box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
-    box-shadow: 2px 41px 96px 15px rgba(0,0,0,0.83);
+    
 }
 .image-container {
     position: relative;
@@ -168,7 +164,158 @@ font-family: 'Lobster Two', cursive;
 .second-section h2{
     color: #84cc16;
     font-weight: 800    ;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Abril Fatface', cursive;
 }
 
+.services{
+    background-color: #27272a;
+    width: 100vw;
+    height: 50vh;
+    margin: 15px;
+   display: flex;
+    justify-content: space-evenly;
+
+}
+
+.services .cards1,.cards2,.cards3,.cards4{
+    border-radius: 10px;
+    margin: 10px;
+    height: 360px;
+    width: 250px;
+    background-color: #3f3f46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+ 
+   
+    
+    border: 2px solid #3f3f46;
+    -webkit-box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
+-moz-box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
+box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
+   
+}
+
+.services .cards1 img{
+    height: 70%;
+    margin-top: 20px;
+    background-color: #52525b;
+    border: 2px solid #52525b;
+    padding: 30px 20px;
+    border-radius: 10px;
+   
+}
+
+.services .cards2 img{
+    height: 70%;
+    margin-top: 20px;
+    background-color: #52525b;
+    border: 2px solid #52525b;
+    padding: 30px 20px;
+    border-radius: 10px;
+   
+}
+
+.services .cards3 img{
+    height: 70%;
+    margin-top: 20px;
+    background-color: #52525b;
+    border: 2px solid #52525b;
+    padding: 30px 20px;
+    border-radius: 10px;
+   
+}
+
+.services .cards4 img{
+    height: 70%;
+    margin-top: 20px;
+    background-color: #52525b;
+    border: 2px solid #52525b;
+    padding: 30px 20px;
+    border-radius: 10px;
+   
+}
+.services .cards1 h3{
+    color: white;
+    margin: 5px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 20px;
+    
+    font-size: 15px;
+    
+}
+.services .cards2 h3{
+    color: white;
+    margin: 5px;
+    text-align: center;
+     padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+.services .cards3 h3{
+    color: white;
+    margin: 5px;
+    text-align: center;
+     padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.services .cards4 h3{
+    color: white;
+    margin: 5px;
+    text-align: center;
+     padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.services .cards1 p{
+    font-size: 13px;
+    color: white;
+    margin: 5px;
+    padding: 7px 7px;
+    text-align: center;
+    background-color:  #52525b;
+    border-radius: 4px;
+    border: 2px solid #52525b;
+
+}
+.services .cards2 p{
+    font-size: 13px;
+    color: white;
+    margin: 5px;
+    padding: 7px 7px;
+    text-align: center;
+     background-color:  #52525b;
+    border-radius: 4px;
+    border: 2px solid #52525b;
+
+}.services .cards3 p{
+    font-size: 13px;
+    color: white;
+    margin: 5px;
+    padding: 7px 7px;
+    text-align: center;
+     background-color:  #52525b;
+    border-radius: 4px;
+    border: 2px solid #52525b;
+
+}.services .cards4 p{
+    font-size: 13px;
+    color: white;
+    margin: 5px;
+    padding: 7px 7px;
+    text-align: center;
+     background-color:  #52525b;
+    border-radius: 4px;
+    border: 2px solid #52525b;
+}
+.Plan-trip{
+    width: 100vw;
+    height: 40vh;
+}
