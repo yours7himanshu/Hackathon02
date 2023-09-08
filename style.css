@@ -168,9 +168,11 @@ font-family: 'Lobster Two', cursive;
 
 .services{
     background-color: #27272a;
-    width: 95vw;
+    width: 98vw;
+    
     height: 70vh;
     margin: 25px ;
+    margin-left: 40px;
    display: flex;
    gap: 10;
     justify-content: space-evenly;
