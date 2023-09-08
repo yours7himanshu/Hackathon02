@@ -8,7 +8,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0.6rem;
+  }
    
 
 html,body{
@@ -26,7 +29,7 @@ body{
 
 .nav-container{
     display: flex;
-    background-color: #18181b;
+    background-color: #1A1A1D;
     color: white;
     align-items: center;
     justify-content: space-around;
@@ -152,14 +155,14 @@ font-family: 'Lobster Two', cursive;
 
 .second-section h1{
      color: white;
-     font-size: 35px;
+     font-size: 30px;
     font-weight: 900;
     margin-top: 30px;
 }
 .second-section h2{
     color: #84cc16;
     font-weight: 800    ;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Abril Fatface', cursive;
 }
 
@@ -196,41 +199,42 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
 }
 
 .services .cards1 img{
-    height: 70%;
-    margin-top: 20px;
+    height: 75%;
+    margin: 20px 0px;
     background-color: #52525b;
     border: 2px solid #52525b;
-    padding: 30px 20px;
+    padding: 10px 2px;
     border-radius: 10px;
+   
    
 }
 
 .services .cards2 img{
-    height: 70%;
-    margin-top: 20px;
+    height: 75%;
+    margin: 20px 0px;
     background-color: #52525b;
     border: 2px solid #52525b;
-    padding: 30px 20px;
+    padding: 10px 2px;
     border-radius: 10px;
    
 }
 
 .services .cards3 img{
     height: 70%;
-    margin-top: 20px;
+    margin: 20px 0px;
     background-color: #52525b;
     border: 2px solid #52525b;
-    padding: 30px 20px;
+    padding: 10px 5px;
     border-radius: 10px;
    
 }
 
 .services .cards4 img{
     height: 70%;
-    margin-top: 20px;
+    margin: 20px 0px;
     background-color: #52525b;
     border: 2px solid #52525b;
-    padding: 30px 20px;
+    padding: 10px 4px;
     border-radius: 10px;
    
 }
@@ -274,6 +278,7 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
     font-size: 13px;
     color: white;
     margin: 5px;
+    margin-bottom: 8px;
     padding: 7px 7px;
     text-align: center;
     background-color:  #52525b;
@@ -285,6 +290,8 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
     font-size: 13px;
     color: white;
     margin: 5px;
+    margin-bottom: 8px;
+
     padding: 7px 7px;
     text-align: center;
      background-color:  #52525b;
@@ -295,6 +302,8 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
     font-size: 13px;
     color: white;
     margin: 5px;
+    margin-bottom: 8px;
+
     padding: 7px 7px;
     text-align: center;
      background-color:  #52525b;
@@ -305,6 +314,8 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
     font-size: 13px;
     color: white;
     margin: 5px;
+    margin-bottom: 8px;
+
     padding: 7px 7px;
     text-align: center;
      background-color:  #52525b;
@@ -312,7 +323,77 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
     border: 2px solid #52525b;
 }
 .Plan-trip{
-    width: 100vw;
-    height: 40vh;
+    margin: 30px;
+    width: 95vw;
+    height: 80vh;
     display: flex;
+    justify-content: center;
+    position: relative;
+}
+.Plan-trip .text-part{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin: 10px 50px;
+    gap: 30px;
+    height: auto;
+    width: auto;
+}
+.Plan-trip .text-part h1{
+    color: #a3e635;
+    font-size: 40px;
+    font-weight: 800    ;
+    margin-top: 0px;
+}
+.Plan-trip .text-part span{
+margin-right: 80px;
+position: relative;
+}
+.Plan-trip .text-part p{
+    color: #CCCCCC;
+    font-size: 15px;
+    font-weight: 500 ;
+    width: 400px;
+    display: inline-block;
+    /* background-color: #52525b; */
+}
+.Plan-trip .text-part .fa-fire {
+  font-size: 40px;
+   
+    position: relative;
+    top: 0%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 20px ;
+  
+
+    color: #FFA500;
+}
+.Plan-trip .text-part .para1{
+    margin-top: 10px;
+}
+
+.Plan-trip .text-part button{
+    width: 400px;
+    height: 40px;
+    margin-top: 17px;
+    font-size: 15px;
+    color: red;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+.Plan-trip .image-part img{
+    height: 80%;
+    width: 500px;
+    background-color: #52525b;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+.Plan-trip .image-part i{
+    font-size: 20px;
+    margin: 10px;
 }
