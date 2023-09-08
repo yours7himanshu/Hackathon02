@@ -170,10 +170,12 @@ font-family: 'Lobster Two', cursive;
     background-color: #27272a;
     width: 95vw;
     height: 70vh;
-    margin: 25px;
+    margin: 25px ;
    display: flex;
-    justify-content: center;
-  gap:20px;
+   gap: 10;
+    justify-content: space-evenly;
+
+  /* gap:20px; */
 
 }
 
@@ -187,11 +189,12 @@ font-family: 'Lobster Two', cursive;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    border-bottom: 4px solid yellowgreen;
 
  
    
     
-    border: 2px solid #3f3f46;
+    /* border: 2px solid #3f3f46; */
     -webkit-box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
 -moz-box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
 box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
@@ -199,19 +202,20 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
 }
 
 .services .cards1 img{
-    height: 75%;
-    margin: 20px 0px;
+    height: 70%;
+    margin: 10px 10px;
     background-color: #52525b;
     border: 2px solid #52525b;
     padding: 10px 2px;
     border-radius: 10px;
+    
    
    
 }
 
 .services .cards2 img{
-    height: 75%;
-    margin: 20px 0px;
+    height: 70%;
+    margin: 10px 10px;
     background-color: #52525b;
     border: 2px solid #52525b;
     padding: 10px 2px;
@@ -221,7 +225,7 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
 
 .services .cards3 img{
     height: 70%;
-    margin: 20px 0px;
+    margin: 10px 10px;
     background-color: #52525b;
     border: 2px solid #52525b;
     padding: 10px 5px;
@@ -231,7 +235,7 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
 
 .services .cards4 img{
     height: 70%;
-    margin: 20px 0px;
+    margin: 10px 10px;
     background-color: #52525b;
     border: 2px solid #52525b;
     padding: 10px 4px;
