@@ -35,6 +35,9 @@ body{
     justify-content: space-around;
     height: 60px;
     width: 100vw;
+    /* border-radius: 50px; */
+    /* border-bottom: 1px solid white; */
+   
 }
 .left{
     font-family: 'Abril Fatface', cursive;
@@ -168,22 +171,21 @@ font-family: 'Lobster Two', cursive;
 
 .services{
     background-color: #27272a;
-    width: 98vw;
-    
+    width: 97vw;
+    min-width:0;
     height: 70vh;
     margin: 25px ;
-    margin-left: 40px;
+    /* margin-left: 40px; */
    display: flex;
-   gap: 10;
     justify-content: space-evenly;
 
-  /* gap:20px; */
+  
 
 }
 
 .services .cards1,.cards2,.cards3,.cards4{
     border-radius: 10px;
-    margin: 10px;
+    margin: 30px;
     height: 360px;
     width: 250px;
     background-color: #3f3f46;
@@ -347,6 +349,7 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
 }
 .Plan-trip .text-part h1{
     color: #a3e635;
+    text-align: center;
     font-size: 40px;
     font-weight: 800    ;
     margin-top: 0px;
