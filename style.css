@@ -282,7 +282,7 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
     font-weight: 800;
 }
 
-.services .cards1 p{
+.services .cards1 button{
     font-size: 13px;
     color: white;
     margin: 5px;
@@ -292,6 +292,7 @@ box-shadow: 10px 6px 119px -17px rgba(0,0,0,0.63);
     background-color:  #52525b;
     border-radius: 4px;
     border: 2px solid #52525b;
+    cursor: pointer;
 
 }
 .services .cards2 p{
